@@ -56,10 +56,14 @@ class MyHomePage extends StatelessWidget {
                   
                   const Search(),
                   //const UserIn(),
+                  //如果未登录UserIn()
                   Container(
                     height: 80,
                     child: const personalCenter(),
                   ),
+                  //如果已登录personalCenter()
+                  //未解决逻辑问题，只能手动切换
+
                   
                   const Mine(),
                   Container(
